@@ -6,6 +6,7 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use 'norcalli/nvim-colorizer.lua'
   use 'nvim-tree/nvim-web-devicons'
+  use "EdenEast/nightfox.nvim" -- color theme
 
   use {
       'dinhhuy258/git.nvim'
@@ -26,14 +27,6 @@ return require('packer').startup(function(use)
 	  'nvim-lualine/lualine.nvim',
 	  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
-  use({
-	  "neanias/everforest-nvim",
-	  as = 'everforest',
-	  -- Optional; default configuration will be used if setup isn't called.
-	  config = function()
-		  require("everforest").setup()
-	  end,
-  })
 
   use {
 	  "windwp/nvim-autopairs",
