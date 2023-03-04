@@ -7,6 +7,7 @@ return require('packer').startup(function(use)
   use 'windwp/nvim-ts-autotag'
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+  use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 
   use {
     'dinhhuy258/git.nvim'
