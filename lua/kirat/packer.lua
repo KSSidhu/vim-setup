@@ -4,6 +4,7 @@ return require('packer').startup(function(use)
   use 'norcalli/nvim-colorizer.lua'
   use 'nvim-tree/nvim-web-devicons'
   use "EdenEast/nightfox.nvim" -- color theme
+  use 'windwp/nvim-ts-autotag'
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
