@@ -20,6 +20,7 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 
 vim.opt.updatetime = 50
+vim.opt.backspace = { 'start', 'eol', 'indent' }
 
 -- Turn off paste mode when leaving insert
 vim.api.nvim_create_autocmd("InsertLeave", {
