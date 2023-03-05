@@ -5,6 +5,7 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   use "EdenEast/nightfox.nvim" -- color theme
   use 'windwp/nvim-ts-autotag'
+  use "glepnir/lspsaga.nvim"
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }

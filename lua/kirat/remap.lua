@@ -14,3 +14,5 @@ vim.keymap.set('', 'sh', '<C-w>h')
 vim.keymap.set('', 'sk', '<C-w>k')
 vim.keymap.set('', 'sj', '<C-w>j')
 vim.keymap.set('', 'sl', '<C-w>l')
+vim.keymap.set('', '<C-a>', 'ggVG') -- Select all
+
