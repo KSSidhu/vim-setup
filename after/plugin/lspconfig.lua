@@ -101,6 +101,6 @@ vim.diagnostic.config({
   },
   update_in_insert = true,
   float = {
-    source = "always",     -- Or "if_many"
+    source = "always", -- Or "if_many"
   },
 })
